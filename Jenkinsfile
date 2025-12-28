@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "prashik536/nodejs2"
+        IMAGE_NAME = "sakshinova/nodejs2"
         IMAGE_TAG = "latest"
         CONTAINER_NAME = "nodejs-app"
         REMOTE_USER = "ubuntu"
-        REMOTE_HOST = "172.31.22.186"
+        REMOTE_HOST = "172.31.44.49"
         SSH_KEY_ID = "ssh-key"    // Jenkins Credentials ID for SSH key
     }
 
